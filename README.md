@@ -21,6 +21,9 @@
 # 必要なライブラリ
 ## opencv-python
 ## numpy
+## keyboard
+### 以下のコマンドで一括インストールできる．
+    pip install -r requirements.txt
 
 # ダウンロードの仕方
 ## gitコマンドを使用する場合
