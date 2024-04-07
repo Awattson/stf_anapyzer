@@ -11,6 +11,8 @@
   ░█░▄▀█░▄▀░░█░▄▀█░▄▀░  
   ░░▀░░░▀░░░░░▀░░░▀░░ 
 
+![logo](system/AnaPyzer_logo.bmp "AnaPyzer")
+
 # オシロスコープのスクショからスペクトラム分析するやつ(Python版)
 
 # 動作環境
@@ -33,12 +35,14 @@
 3. zipは解凍(展開)しよう
 
 # 使い方
+    python fst.py
+    python snd.py
+
 1. コマンドプロンプトを開こう
 2. cdでAnaPyzerまで移動
 3. 解析したいスクショを用意
 4. pythonでfst.pyを実行
-    python fst.py
 5. pythonでsnd.pyを実行
-    python snd.py
 6. fst.py, snd.pyは"q"を押せば終了する
 7. AnaPyzer/resultにpower_spectrum.csvが生成される．それがスペクトル解析したデータ
+もう片方のcsvファイルはスクショの波形をcsvに変換したもの
