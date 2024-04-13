@@ -44,8 +44,13 @@
 1. コマンドプロンプトを開こう
 2. cdでAnaPyzerまで移動
 3. 解析したいスクショを用意
+![fig3](system/noise5.png "fig3")
 4. pythonでfst.pyを実行
+![fig4](system/export2.jpg "fig4")
 5. pythonでsnd.pyを実行
+![fig5](system/modified_tmp2.jpg "fig5")
 6. fst.py, snd.pyは"q"を押せば終了する
 7. AnaPyzer/resultにpower_spectrum.csvが生成される．それがスペクトル解析したデータ
 もう片方のcsvファイルはスクショの波形をcsvに変換したもの
+![fig6](system/image1.png "fig6")
+![fig7](system/anazed.png "fig7")
